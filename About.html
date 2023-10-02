@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <title>
+            College website 
+        </title>
+
+        <link rel="stylesheet" href="college.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400;1,600&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <div class="logo"><p>RawEdu.</p></div>
+                <div class="link-list" id="navLinks" >
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="college.html">home</a></li>
+                    <li><a href="About.html">about</a></li>
+                    <li><a href="course.html">course</a></li>
+                    <li><a href="Blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+           <h1>About Us </h1>
+        </section>
+
+        <!----About us content--->
+
+        <section class="about-us">
+            <div class="row">
+                <div class="about-cor">
+                    <h1>We are the world's Largest University</h1>
+                    <p>Lorem ipsum dolar sit amet, consectetur adipiscing elitLorem ipsum dolar sit amet, consectetur adipiscing elit
+                        Lorem ipsum dolar sit amet, consectetur adipiscing elitLorem ipsum dolar sit amet, consectetur adipiscing elit
+                        Lorem</p>
+                        <a href="#" class="visit-btn red-btn">Explore Now</a>
+                        </div>
+                
+                <div class="about-cor" ><img src="pics/registration.jpg" alt=""></div>
+            </div>
+            </div>
+        </section>
+        
+      
+
+
+       <!---footer-->
+
+       <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolar sit amet, consectetur adipiscing elitLorem ipsum dolar sit amet, consectetur adipiscing elit <br>
+            Lorem ipsum dolar sit amet, consectetur adipiscing elitLorem ipsum dolar sit amet, consectetur adipiscing elit</p>
+            <div class="icon">
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+            </div>
+        </section>
+        
+
+
+
+         <!------javaScript for toggle menu----->
+        <script>
+            var navlinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+        <!---icons--->
+
+    </body>
+</html>

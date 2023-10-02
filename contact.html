@@ -1,0 +1,141 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <title>
+            College website 
+        </title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+        <link rel="stylesheet" href="college.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400;1,600&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <div class="logo"><p>RawEdu.</p></div>
+                <div class="link-list" id="navLinks" >
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="college.html">home</a></li>
+                    <li><a href="About.html">about</a></li>
+                    <li><a href="course.html">course</a></li>
+                    <li><a href="Blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+           <h1>Contact Us</h1>
+        </section>
+
+        <!----Contact us-->
+       
+       <section class="contact-Header">
+        <div class="contact-info-raw">
+            <div class="box-col-left">
+
+                <div class="text">
+                <div class="icon"> <i class="fa fa-map-marker" aria-hidden="true"></i></div>                  
+                        <h2>Address</h2>
+                        <p>35A/385 Dayalbagh Agra-5 <br>Uttar Pardesh <br>262002</p>
+                    </div>
+                    
+
+                    <div class="text">
+                <div class="icon"> <i class="fa fa-phone" aria-hidden="true"></i></div>
+                        <h2>Phone</h2>
+                        <p>+9125005</p>
+                    </div>
+                
+            
+                    <div class="text">
+                <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i> </div>
+                        <h2>Email</h2>
+                        <p>rawat04@gmail.com</p>
+                    </div>
+                    </div>
+            
+            
+        
+        
+            <div class="contact_form">
+            <form>
+                <h3>Send Message</h3>
+                <div class="inputbox">
+                    <input type="text" name="" required="required">
+                    <span>Full Name</span>
+                </div>
+                <div class="inputbox">
+                    <input type="text" name="" required="required">
+                    <span>Email</span>
+                </div>
+                <div class="inputbox">
+                    <input type="text" name="" required="required">
+                    <span>Number</span>
+                </div>
+                <div class="inputbox" >
+                    
+                    <select class="choose_course" required="required" >   
+                        
+			<option>Choose Course....</option>
+			<option>MBA</option>
+			<option>B.TEC</option>
+			<option>Diploma</option>
+                    </select></span>
+                </div>
+
+                <div class="inputbox">
+                    <textarea required="required" rows="5"></textarea>
+                    <span>Type Your Message....</span>
+                </div>
+                <div class="inputbox">
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+            </div>
+        </div>
+        
+        </section>
+
+       
+
+         <!---footer-->
+
+       <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolar sit amet, consectetur adipiscing elitLorem ipsum dolar sit amet, consectetur adipiscing elit <br>
+            Lorem ipsum dolar sit amet, consectetur adipiscing elitLorem ipsum dolar sit amet, consectetur adipiscing elit</p>
+            <div class="icon">
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+            </div>
+        </section>
+
+      
+        
+
+
+
+         <!------javaScript for toggle menu----->
+        <script>
+            var navlinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+          <!---icons--->
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+      
+
+    </body>
+</html>
